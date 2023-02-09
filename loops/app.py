@@ -1,32 +1,15 @@
-# i = 1
+# EXERCISE: GUESS THE NUMBER GAME
 
-# while i <= 5:
-#     print('*' * i)
-#     i += 1
-
-# print('done')
-
-
-
-
-
-
-
-
-EXERCISE: GUESS THE NUMBER GAME
-
-secret_number = 9
-guess_count = 0
-guess_limit = 3
+SECRET_NUMBER = 9
+GUESS_COUNT = 0
+GUESS_LIMIT = 3
 
 print('Guess my Secret Number!')
-while guess_count < guess_limit:
+while GUESS_COUNT < GUESS_LIMIT:
     guess = int(input('Guess: '))
-    guess_count += 1
-    if guess == secret_number:
+    GUESS_COUNT += 1
+    if guess == SECRET_NUMBER:
         print('Yay you Won!')
         break
 else:
-    print('Sorry, you Lose!')    
-
-    
+    print('Sorry, you Lose!')

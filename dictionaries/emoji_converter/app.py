@@ -1,6 +1,5 @@
-message = input('>')
-
 def emoji_converter(message):
+    message = input('>')
     words = message.split(' ')
 
     emojis = {
